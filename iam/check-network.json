@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "cloudwatch:ReadOnlyAccess",
+                "ec2:ReadOnlyAccess",
+                "cloudwatch:GetMetricStatistics",
+                "ec2:StopInstances",
+                "ec2:DescribeInstances"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
