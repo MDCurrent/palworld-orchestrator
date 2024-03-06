@@ -1,0 +1,1 @@
+cd Steam/steamapps/common/PalServer && nohup ./PalServer.sh -UseMultithreadForDS=4 > /dev/null 2>&1 &
